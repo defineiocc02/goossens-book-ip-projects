@@ -1,3 +1,0 @@
-cd /opt/Xilinx/Vitis/2022.1/data/xicom
-cd cable_drivers/lin64/install_script/install_drivers
-sudo ./install_drivers

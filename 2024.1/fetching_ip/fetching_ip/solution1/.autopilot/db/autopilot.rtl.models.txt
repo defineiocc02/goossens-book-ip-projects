@@ -1,5 +1,0 @@
-fetching_ip_control_s_axi
-fetch
-execute
-running_cond_update
-fetching_ip

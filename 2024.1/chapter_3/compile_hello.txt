@@ -1,5 +1,0 @@
-riscv32-unknown-elf-gcc hello.c -o hello
-
-riscv32-unknown-elf-objdump -d hello > hello.dump
-
-

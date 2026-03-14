@@ -1,3 +1,0 @@
-cd /opt/Xilinx/Vitis/2022.1
-source settings64.sh
-vitis&

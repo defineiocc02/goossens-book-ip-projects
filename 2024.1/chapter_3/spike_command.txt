@@ -1,1 +1,0 @@
-spike /opt/riscv/riscv32-unknown-elf/bin/pk hello
