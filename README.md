@@ -1,3 +1,9 @@
+> **仓库身份 / Repository identity（2026-10-02）**：这是 [goossens-springer/goossens-book-ip-projects](https://github.com/goossens-springer/goossens-book-ip-projects) 的个人学习资料 fork。上游作者、版权和许可按原文件保留；下文“我们 / 本人 / This work”属于上游文档语境，不表示本账号创作了原书或原工具。徽章若指向上游，其状态也仅代表上游。
+>
+> **验证范围**：本次核对来源、目录与成果表述；未独立重跑上游全部例程，未对教材全部推导作正确性认证。本账号增量以 [提交记录](https://github.com/defineiocc02/goossens-book-ip-projects/commits/main) 与上游差异为准。使用方法继续见原文，返回 [项目导航](https://github.com/defineiocc02)。
+
+---
+
 # 计算机处理器架构指南 - FPGA 实验项目
 
 > 基于 Bernard Goossens 的《Guide to Computer Processor Architecture》(Springer 2023) 一书
@@ -10,6 +16,8 @@
 
 ```
 goossens-book-ip-projects/
+├── 2022.1/                # 保留的历史工具版本工程
+├── 2024.1/                # 保留的历史工具版本工程
 ├── README.md              # 本文件（中文说明）
 ├── projects/              # Vitis 2025.1 项目文件夹
 │   ├── chapter_2/         # 第2章：基础 IP 核开发
@@ -48,7 +56,7 @@ goossens-book-ip-projects/
 
 2. **克隆仓库**
    ```bash
-   git clone https://github.com/goossens-springer/goossens-book-ip-projects.git
+   git clone https://github.com/defineiocc02/goossens-book-ip-projects.git
    cd goossens-book-ip-projects
    ```
 
