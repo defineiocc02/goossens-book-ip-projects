@@ -1,3 +1,8 @@
+> **这是 fork** · 上游：[goossens-springer/goossens-book-ip-projects](https://github.com/goossens-springer/goossens-book-ip-projects)
+> 本地增量：无新增工程代码；有一条历史提交裁剪了目录内容（见下）。
+> 内容完整性：本 fork 只保留部分年份/项目的 IP，**不是上游完整镜像**，引用前请核对实际目录。
+> 同步状态：不打算跟进上游。
+
 > **仓库身份 / Repository identity（2026-10-02）**：这是 [goossens-springer/goossens-book-ip-projects](https://github.com/goossens-springer/goossens-book-ip-projects) 的个人学习资料 fork。上游作者、版权和许可按原文件保留；下文“我们 / 本人 / This work”属于上游文档语境，不表示本账号创作了原书或原工具。徽章若指向上游，其状态也仅代表上游。
 >
 > **验证范围**：本次核对来源、目录与成果表述；未独立重跑上游全部例程，未对教材全部推导作正确性认证。本账号增量以 [提交记录](https://github.com/defineiocc02/goossens-book-ip-projects/commits/main) 与上游差异为准。使用方法继续见原文，返回 [项目导航](https://github.com/defineiocc02)。
@@ -7,6 +12,19 @@
 # 计算机处理器架构指南 - FPGA 实验项目
 
 > 基于 Bernard Goossens 的《Guide to Computer Processor Architecture》(Springer 2023) 一书
+
+## 与上游的差异
+
+本仓库与上游 `goossens-springer/goossens-book-ip-projects` 的 `main` 内容不对等，差异来自本地提交 [`cc06c7f4`](https://github.com/defineiocc02/goossens-book-ip-projects/commit/cc06c7f4)。
+
+- 该提交删除了上游大部分目录：上游 `main` 约 56,846 个文件 / 10.5 GB，本仓库工作树约 11,557 个文件 / 1.0 GB。
+- **提交消息与实际内容相反**。消息写的是"删除旧版本，保留 2025.1 版本"，实际结果是：
+  - `2022.1/` 只剩 32 个文件（仅 `pynq_io` 一个生成目录残留），上游为 21,067 个文件；
+  - `2025.1/` 目录本身已被移除，其内容改名为 `projects/`，文件与上游逐字节一致（blob SHA 相同）；
+  - `2024.1/` 由 30,133 个文件减到 5,879 个，为残缺副本；
+  - 消息中的"添加代码注释"未发生，`projects/` 下代码与上游 blob SHA 相同，未改一行。
+- 因此**以目录实际内容为准，不要按提交消息判断完整度**。引用、复现或对照教材前，请先确认目标路径是否存在；缺失内容请回到上游获取。
+- 裁剪只影响工作树，历史对象仍在，仓库体积约 1.9 GB。只需部分 IP 时建议用稀疏检出拉取上游，而不是全量 clone。
 
 ## 📖 项目简介
 
