@@ -1,3 +1,7 @@
+# goossens-book-ip-projects
+
+![状态](https://img.shields.io/badge/%E7%8A%B6%E6%80%81-fork-8250df?style=flat-square) ![类型](https://img.shields.io/badge/%E7%B1%BB%E5%9E%8B-%E6%95%99%E6%9D%90_IP-6e7781?style=flat-square) ![技术栈](https://img.shields.io/badge/%E6%8A%80%E6%9C%AF%E6%A0%88-Verilog_%C2%B7_HLS-6e7781?style=flat-square) ![许可](https://img.shields.io/badge/%E8%AE%B8%E5%8F%AF-%E8%A7%81%E4%B8%8A%E6%B8%B8-6e7781?style=flat-square)
+
 > **这是 fork** · 上游：[goossens-springer/goossens-book-ip-projects](https://github.com/goossens-springer/goossens-book-ip-projects)
 > 本地增量：无新增工程代码；有一条历史提交裁剪了目录内容（见下）。
 > 内容完整性：本 fork 只保留部分年份/项目的 IP，**不是上游完整镜像**，引用前请核对实际目录。
@@ -6,10 +10,6 @@
 > **仓库身份 / Repository identity（2026-10-02）**：这是 [goossens-springer/goossens-book-ip-projects](https://github.com/goossens-springer/goossens-book-ip-projects) 的个人学习资料 fork。上游作者、版权和许可按原文件保留；下文“我们 / 本人 / This work”属于上游文档语境，不表示本账号创作了原书或原工具。徽章若指向上游，其状态也仅代表上游。
 >
 > **验证范围**：本次核对来源、目录与成果表述；未独立重跑上游全部例程，未对教材全部推导作正确性认证。本账号增量以 [提交记录](https://github.com/defineiocc02/goossens-book-ip-projects/commits/main) 与上游差异为准。使用方法继续见原文，返回 [项目导航](https://github.com/defineiocc02)。
-
----
-
-# 计算机处理器架构指南 - FPGA 实验项目
 
 > 基于 Bernard Goossens 的《Guide to Computer Processor Architecture》(Springer 2023) 一书
 
